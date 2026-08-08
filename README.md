@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/razekmh/manim-arabic/main/assets/logo.svg" alt="manim-arabic logo" width="160">
+</p>
+
 # manim-arabic
 
 Arabic text rendering helpers for [Manim](https://www.manim.community/) using XeLaTeX and `fontspec`.
