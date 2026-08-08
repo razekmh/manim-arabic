@@ -1,6 +1,6 @@
 [project]
 name = "manim-arabic"
-version = "0.1.0"
+version = "0.1.1"
 description = "Arabic text rendering helpers for Manim using XeLaTeX"
 readme = "README.md"
 requires-python = ">=3.11"
