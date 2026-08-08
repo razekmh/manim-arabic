@@ -1,0 +1,32 @@
+[project]
+name = "manim-arabic"
+version = "0.1.0"
+description = "Arabic text rendering helpers for Manim using XeLaTeX"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Mahmoud Abdelrazek" },
+]
+keywords = ["manim", "arabic", "xelatex", "animation"]
+dependencies = [
+    "manim>=0.19.1",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Video",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/manim_arabic"]
