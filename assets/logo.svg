@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="manim-arabic logo">
+  <defs>
+    <linearGradient id="bg" x1="28" y1="20" x2="228" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E4A82"/>
+      <stop offset="100%" stop-color="#122E54"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded badge -->
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#bg)"/>
+
+  <!-- Manim-style construction guides -->
+  <g fill="none" stroke="#7BA3E0" stroke-opacity="0.28" stroke-width="2">
+    <circle cx="128" cy="128" r="84"/>
+    <path d="M128 34 V222 M34 128 H222"/>
+  </g>
+
+  <!-- Inner focus ring -->
+  <circle cx="128" cy="128" r="58" fill="none" stroke="#4472C4" stroke-width="3" stroke-opacity="0.55"/>
+
+  <!-- Animation path -->
+  <path
+    d="M48 146 C58 78 118 42 186 58"
+    fill="none"
+    stroke="#70AD47"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-dasharray="1 16"
+  />
+
+  <!-- Play tip on the path -->
+  <path d="M186 50 L206 66 L180 72 Z" fill="#70AD47"/>
+
+  <!-- Arabic ain: core mark of the brand -->
+  <text
+    x="128"
+    y="148"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Geeza Pro', 'Al Bayan', 'Arial Unicode MS', 'Segoe UI', sans-serif"
+    font-size="118"
+    font-weight="600"
+    fill="#F5F8FC"
+  >ع</text>
+
+  <!-- Accent (package arabicred) -->
+  <circle cx="176" cy="78" r="6" fill="#C00000"/>
+</svg>
